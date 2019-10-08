@@ -18,7 +18,6 @@ quietly{
 	reghdfe, compile
 	ssc install distinct
 	ssc install winsor2
-	
 }
 
 
