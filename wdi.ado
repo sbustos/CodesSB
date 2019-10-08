@@ -7,6 +7,7 @@ program define wdi
 version 10
 
 clear all
+Noi di "version Oct 2019"
 display "****************************************************************************************"
 display "*****         Loading World Development Indicators - WDI     ***************************"
 
