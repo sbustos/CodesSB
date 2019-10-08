@@ -1,0 +1,5 @@
+v 3
+d updateSB. Program to update and install my commonly used Stata ADO files
+d Sebastian Bustos 
+f updateSB.ado
+f wdi.ado
