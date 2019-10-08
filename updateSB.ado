@@ -3,7 +3,7 @@ cap program drop updateSB
 program define updateSB
 //----------------------------------------------------------------------------------------
 
-noi di "Updating and installing custom used packages"
+noi di "Updating and installing custom used packages (ver Oct 7 2019)"
 
 quietly{
 	//------------------------------------------------------------
