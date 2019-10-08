@@ -2,4 +2,4 @@ v 3
 d Sebastian Bustos  Harvard University.
 p wdi  -  loads WDI
 p updateSB -  updates and install my usual Stata ADO files
-p downloadSB
+p downloadSB - script for downloading my ADO files
