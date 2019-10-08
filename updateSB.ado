@@ -9,14 +9,14 @@ quietly{
 	//------------------------------------------------------------
 	// stata setup 
 	// ------------------------------------------------------------
-	ssc install  blindschemes
-	ssc install ftools
-	ssc install reghdfe
-	ssc install moremata
-	ftools, compile
-	reghdfe, compile
-	ssc install distinct
-	ssc install winsor2
+	ssc install  blindschemes, replace 
+	ssc install ftools, replace 
+	ssc install reghdfe, replace 
+	ssc install moremata, replace 
+	cap ftools, compile
+	cap reghdfe, compile
+	ssc install distinct, replace 
+	ssc install winsor2, replace 
 }
 
 end
