@@ -17,6 +17,7 @@ quietly{
 	cap reghdfe, compile
 	ssc install distinct, replace 
 	ssc install winsor2, replace 
+	cap ssc install hoi
 }
 
 end
