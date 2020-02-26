@@ -9,12 +9,15 @@ quietly{
 	//------------------------------------------------------------
 	// stata setup 
 	// ------------------------------------------------------------
-	ssc install  blindschemes, replace 
+	ssc install blindschemes, replace 
 	ssc install ftools, replace 
-	ssc install reghdfe, replace 
+	
+	ssc install reghdfe, replace
 	ssc install moremata, replace 
+	ssc install ivreghdfe, replace 
 	cap ftools, compile
 	cap reghdfe, compile
+	
 	ssc install distinct, replace 
 	ssc install winsor2, replace 
 	cap ssc install hoi
